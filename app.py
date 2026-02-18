@@ -1,5 +1,6 @@
 import streamlit as st
 import json
+import os
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -569,7 +570,7 @@ def create_hero_section(latest_data):
     """
     st.markdown("".join(line.strip() for line in hero_html.splitlines()), unsafe_allow_html=True)
 
-    if st.button("TEST_BUTTON", key="btn_toggle_final"):
+    if st.button(" ", key="btn_toggle_final"):
         st.session_state.show_table = not st.session_state.show_table
         st.rerun()
 
@@ -921,7 +922,9 @@ if not main_data:
 
 latest_record = main_data['data'][0]
 
-# 2. בניית מבנה הנתונים השלם שה-LLM יקרא
+# ==========================================
+# 🤖 יצירת ה-API / מבנה הנתונים ל-LLM
+# ==========================================
 machine_ready_data = {
     "dashboard_metadata": {
         "title": "מדד המחירים לצרכן - דשבורד",
@@ -960,19 +963,25 @@ machine_ready_data = {
     }
 }
 
-# 3. ניתוב (Routing) - האם ביקשו את ה-API?
-# (בגרסאות סטרימליט חדשות משתמשים ב- st.query_params)
-if st.query_params.get("api") == "true":
-    # מחזיר רק JSON נקי לעמוד
-    st.json(machine_ready_data)
-    # עוצר את ריצת הסקריפט כדי לא לרנדר את שאר ה-HTML/CSS/Graphs
-    st.stop()
+# 1. שמירה כקובץ סטטי אמיתי לטובת ה-LLM
+os.makedirs("static", exist_ok=True)
+with open("static/api.json", "w", encoding="utf-8") as f:
+    json.dump(machine_ready_data, f, ensure_ascii=True, indent=2)
 
+# 2. הזרקה ל-DOM כ-JSON-LD
 st.markdown(f"""
     <script type="application/ld+json">
     {json.dumps(machine_ready_data, ensure_ascii=False, indent=2)}
     </script>
 """, unsafe_allow_html=True)
+
+# 3. טיפול בפרמטר ?api=true כדי לראות את זה חזותית מול העיניים
+if st.query_params.get("api") == "true":
+    st.json(machine_ready_data)
+    st.stop()
+# ==========================================
+# סיום הטיפול ב-API. מכאן ה-UI ממשיך כרגיל
+# ==========================================
 
 create_hero_section(latest_record)
 

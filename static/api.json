@@ -1,0 +1,315 @@
+{
+  "dashboard_metadata": {
+    "title": "מדד המחירים לצרכן - דשבורד",
+    "description": "דשבורד המציג את נתוני מדד המחירים לצרכן בישראל, כולל מגמות, תרומות של סעיפים מרכזיים, ושינויים היסטוריים.",
+    "report_date": "11/2025",
+    "base_index": "ממוצע 2024 = 100"
+  },
+  "key_metrics": {
+    "monthly_change_percent": -0.5,
+    "yearly_change_percent": 2.4,
+    "current_index_level": 103.6,
+    "core_trend_without_housing_percent": 0.9,
+    "core_trend_without_housing_vegetables_fruits_percent": 1.5,
+    "core_trend_period": "אוגוסט-נובמבר 2025"
+  },
+  "charts_data": {
+    "monthly_changes_13_months": [
+      {
+        "month": 11,
+        "year": 2025,
+        "monthly_change_percent": -0.5
+      },
+      {
+        "month": 10,
+        "year": 2025,
+        "monthly_change_percent": 0.5
+      },
+      {
+        "month": 9,
+        "year": 2025,
+        "monthly_change_percent": -0.6
+      },
+      {
+        "month": 8,
+        "year": 2025,
+        "monthly_change_percent": 0.7
+      },
+      {
+        "month": 7,
+        "year": 2025,
+        "monthly_change_percent": 0.4
+      },
+      {
+        "month": 6,
+        "year": 2025,
+        "monthly_change_percent": 0.3
+      },
+      {
+        "month": 5,
+        "year": 2025,
+        "monthly_change_percent": -0.3
+      },
+      {
+        "month": 4,
+        "year": 2025,
+        "monthly_change_percent": 1.1
+      },
+      {
+        "month": 3,
+        "year": 2025,
+        "monthly_change_percent": 0.5
+      },
+      {
+        "month": 2,
+        "year": 2025,
+        "monthly_change_percent": 0.0
+      },
+      {
+        "month": 1,
+        "year": 2025,
+        "monthly_change_percent": 0.6
+      },
+      {
+        "month": 12,
+        "year": 2024,
+        "monthly_change_percent": -0.3
+      },
+      {
+        "month": 11,
+        "year": 2024,
+        "monthly_change_percent": -0.4
+      }
+    ],
+    "top_contributions_to_monthly_change": [
+      {
+        "code": 121390,
+        "name": "הוצאות על נסיעות לחו\"ל  וטיסות בארץ",
+        "contribution": -0.255,
+        "monthly_change": -5.6
+      },
+      {
+        "code": "unified_fresh",
+        "name": "ירקות ופירות טריים",
+        "contribution": -0.096,
+        "monthly_change": -4.2
+      },
+      {
+        "code": 121190,
+        "name": "הארחה, נופש  וטיולים",
+        "contribution": -0.069,
+        "monthly_change": -8.1
+      },
+      {
+        "code": 121360,
+        "name": "רכב פרטי ואחזקתו",
+        "contribution": -0.022,
+        "monthly_change": -0.2
+      },
+      {
+        "code": 121410,
+        "name": "שירותי ומוצרי תקשורת",
+        "contribution": -0.018,
+        "monthly_change": -0.9
+      },
+      {
+        "code": 121180,
+        "name": "הצגות, קונצרטים,  מופעי ספורט,  קולנוע וכדומה",
+        "contribution": -0.016,
+        "monthly_change": -2.0
+      },
+      {
+        "code": 120460,
+        "name": "שכר דירה פרטי, ציבורי ושכירות ארוכת טווח בפיקוח ממשלתי",
+        "contribution": 0.015,
+        "monthly_change": 0.2
+      },
+      {
+        "code": 120530,
+        "name": "מסים עירוניים",
+        "contribution": -0.013,
+        "monthly_change": -0.5
+      }
+    ],
+    "time_series_26_months": [
+      {
+        "month": 11,
+        "year": 2025,
+        "index_level": 103.6,
+        "seasonally_adjusted": 103.7
+      },
+      {
+        "month": 10,
+        "year": 2025,
+        "index_level": 104.1,
+        "seasonally_adjusted": 103.7
+      },
+      {
+        "month": 9,
+        "year": 2025,
+        "index_level": 103.6,
+        "seasonally_adjusted": 103.4
+      },
+      {
+        "month": 8,
+        "year": 2025,
+        "index_level": 104.2,
+        "seasonally_adjusted": 103.7
+      },
+      {
+        "month": 7,
+        "year": 2025,
+        "index_level": 103.5,
+        "seasonally_adjusted": 103.2
+      },
+      {
+        "month": 6,
+        "year": 2025,
+        "index_level": 103.1,
+        "seasonally_adjusted": 103.0
+      },
+      {
+        "month": 5,
+        "year": 2025,
+        "index_level": 102.8,
+        "seasonally_adjusted": 102.6
+      },
+      {
+        "month": 4,
+        "year": 2025,
+        "index_level": 103.1,
+        "seasonally_adjusted": 102.8
+      },
+      {
+        "month": 3,
+        "year": 2025,
+        "index_level": 102.0,
+        "seasonally_adjusted": 102.3
+      },
+      {
+        "month": 2,
+        "year": 2025,
+        "index_level": 101.5,
+        "seasonally_adjusted": 102.0
+      },
+      {
+        "month": 1,
+        "year": 2025,
+        "index_level": 101.5,
+        "seasonally_adjusted": 102.0
+      },
+      {
+        "month": 12,
+        "year": 2024,
+        "index_level": 100.9,
+        "seasonally_adjusted": 101.3
+      },
+      {
+        "month": 11,
+        "year": 2024,
+        "index_level": 101.2,
+        "seasonally_adjusted": 101.3
+      },
+      {
+        "month": 10,
+        "year": 2024,
+        "index_level": 101.6,
+        "seasonally_adjusted": 101.2
+      },
+      {
+        "month": 9,
+        "year": 2024,
+        "index_level": 101.1,
+        "seasonally_adjusted": 100.9
+      },
+      {
+        "month": 8,
+        "year": 2024,
+        "index_level": 101.3,
+        "seasonally_adjusted": 100.9
+      },
+      {
+        "month": 7,
+        "year": 2024,
+        "index_level": 100.4,
+        "seasonally_adjusted": 100.2
+      },
+      {
+        "month": 6,
+        "year": 2024,
+        "index_level": 99.8,
+        "seasonally_adjusted": 99.7
+      },
+      {
+        "month": 5,
+        "year": 2024,
+        "index_level": 99.7,
+        "seasonally_adjusted": 99.5
+      },
+      {
+        "month": 4,
+        "year": 2024,
+        "index_level": 99.5,
+        "seasonally_adjusted": 99.2
+      },
+      {
+        "month": 3,
+        "year": 2024,
+        "index_level": 98.7,
+        "seasonally_adjusted": 98.9
+      },
+      {
+        "month": 2,
+        "year": 2024,
+        "index_level": 98.1,
+        "seasonally_adjusted": 98.6
+      },
+      {
+        "month": 1,
+        "year": 2024,
+        "index_level": 97.8,
+        "seasonally_adjusted": 98.3
+      },
+      {
+        "month": 12,
+        "year": 2023,
+        "index_level": 97.8,
+        "seasonally_adjusted": 98.1
+      },
+      {
+        "month": 11,
+        "year": 2023,
+        "index_level": 97.8,
+        "seasonally_adjusted": 98.0
+      },
+      {
+        "month": 10,
+        "year": 2023,
+        "index_level": 98.1,
+        "seasonally_adjusted": 97.8
+      }
+    ],
+    "top_price_changes_in_selected_items": [
+      {
+        "name": "פירות וירקות טריים",
+        "change": -4.2
+      },
+      {
+        "name": "תרבות ובידור",
+        "change": -2.5
+      },
+      {
+        "name": "סוכר, ריבה וממתקים",
+        "change": 1.9
+      },
+      {
+        "name": "תחבורה",
+        "change": -1.7
+      },
+      {
+        "name": "ריהוט",
+        "change": -1.4
+      }
+    ]
+  }
+}
