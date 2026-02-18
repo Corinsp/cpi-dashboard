@@ -802,6 +802,113 @@ def get_calculated_contributions():
             
     return final_items
 
+def get_top_selected_consumption_items():
+    classification_file = Path("data/classification/groups_with_parent_level_siblings_depth.json")
+    if not classification_file.exists():
+        return []
+    
+    classification_data = load_json(classification_file)
+    if not classification_data or 'data' not in classification_data:
+        return []
+    
+    class_items = classification_data['data']
+    
+    level_1_groups = [
+        item for item in class_items 
+        if item.get('level') == 1 or item.get('parent_code') is None
+    ]
+    
+    level_1_stats = []
+    
+    for group in level_1_groups:
+        code = group['group_code']
+        file_path = Path(f"data/groups/cpi_{code}_11-2015_11-2025.json")
+        if file_path.exists():
+            data = load_json(file_path)
+            if data and data.get('data'):
+                latest = data['data'][0]
+                change = latest.get('monthly_change', 0)
+                if change is not None:
+                    level_1_stats.append({
+                        'code': code,
+                        'name': data.get('name', group.get('group_name', str(code))),
+                        'change': change,
+                        'score': abs(change)
+                    })
+                    
+    level_1_stats.sort(key=lambda x: x['score'], reverse=True)
+    top_5_level_1 = level_1_stats[:5]
+    
+    final_results = []
+    
+    for parent in top_5_level_1:
+        parent_code = parent['code']
+        parent_score = parent['score']
+        
+        children = [item for item in class_items if item.get('parent_code') == parent_code]
+        children_to_evaluate = []
+        
+        if parent_code == 120040:
+            special_codes = [120042, 120043]
+            special_changes = []
+            
+            children = [c for c in children if c['group_code'] not in special_codes]
+            
+            for code in special_codes:
+                c_file = Path(f"data/groups/cpi_{code}_11-2015_11-2025.json")
+                if c_file.exists():
+                    c_data = load_json(c_file)
+                    if c_data and c_data.get('data'):
+                        c_change = c_data['data'][0].get('monthly_change', 0)
+                        special_changes.append(c_change)
+            
+            if special_changes:
+                avg_change = sum(special_changes) / len(special_changes)
+                children_to_evaluate.append({
+                    'name': 'פירות וירקות טריים',
+                    'change': avg_change,
+                    'score': abs(avg_change)
+                })
+        
+        for child in children:
+            c_code = child['group_code']
+            c_file = Path(f"data/groups/cpi_{c_code}_11-2015_11-2025.json")
+            if c_file.exists():
+                c_data = load_json(c_file)
+                if c_data and c_data.get('data'):
+                    c_latest = c_data['data'][0]
+                    c_change = c_latest.get('monthly_change', 0)
+                    if c_change is not None:
+                        children_to_evaluate.append({
+                            'name': c_data.get('name', child.get('group_name', str(c_code))),
+                            'change': c_change,
+                            'score': abs(c_change)
+                        })
+        
+        best_child_score = -1
+        best_child_change = 0
+        best_child_name = ""
+        
+        for child_eval in children_to_evaluate:
+            if child_eval['score'] > best_child_score:
+                best_child_score = child_eval['score']
+                best_child_change = child_eval['change']
+                best_child_name = child_eval['name']
+        
+        if best_child_score > parent_score:
+            final_results.append({
+                'name': best_child_name,
+                'change': best_child_change
+            })
+        else:
+            final_results.append({
+                'name': parent['name'],
+                'change': parent['change']
+            })
+
+    final_results.sort(key=lambda x: abs(x['change']), reverse=True)       
+    return final_results
+
 # ===================
 # ממשק המשתמש הראשי
 # ===================
@@ -814,36 +921,33 @@ if not main_data:
 
 latest_record = main_data['data'][0]
 
-machine_ready_page = {
-    "page_title": "מדד המחירים לצרכן",
-    "report_date": f"{latest_record.get('month')}/{latest_record.get('year')}",
-    "summary": {
+# 2. בניית מבנה הנתונים השלם שה-LLM יקרא
+machine_ready_data = {
+    "dashboard_metadata": {
+        "title": "מדד המחירים לצרכן - דשבורד",
+        "description": "דשבורד המציג את נתוני מדד המחירים לצרכן בישראל, כולל מגמות, תרומות של סעיפים מרכזיים, ושינויים היסטוריים.",
+        "report_date": f"{latest_record.get('month')}/{latest_record.get('year')}",
+        "base_index": "ממוצע 2024 = 100"
+    },
+    "key_metrics": {
         "monthly_change_percent": latest_record.get('monthly_change'),
         "yearly_change_percent": latest_record.get('yearly_change'),
-        "index_level": latest_record.get('index_relative_to_2024_avg'),
-        "base": "ממוצע 2024 = 100",
+        "current_index_level": latest_record.get('index_relative_to_2024_avg'),
         "core_trend_without_housing_percent": 0.9,
         "core_trend_without_housing_vegetables_fruits_percent": 1.5,
         "core_trend_period": "אוגוסט-נובמבר 2025"
     },
-    "monthly_changes_chart": {
-        "description": "אחוז שינוי חודשי במדד המחירים לצרכן ב-13 החודשים האחרונים",
-        "data": [
+    "charts_data": {
+        "monthly_changes_13_months": [
             {
                 "month": d.get("month"),
                 "year": d.get("year"),
                 "monthly_change_percent": d.get("monthly_change")
             }
             for d in main_data['data'][:13]
-        ]
-    },
-    "contributions_chart": {
-        "description": "תרומת קבוצות מוצרים ושירותים לשינוי החודשי במדד",
-        "data": get_calculated_contributions()
-    },
-    "time_series_chart": {
-        "description": "רמת מדד המחירים לצרכן והמדד המנוכה עונתית ב-26 החודשים האחרונים",
-        "data": [
+        ],
+        "top_contributions_to_monthly_change": get_calculated_contributions(),
+        "time_series_26_months": [
             {
                 "month": d.get("month"),
                 "year": d.get("year"),
@@ -851,13 +955,22 @@ machine_ready_page = {
                 "seasonally_adjusted": d.get("seasonally_adjusted")
             }
             for d in main_data['data'][:26]
-        ]
+        ],
+        "top_price_changes_in_selected_items": get_top_selected_consumption_items()
     }
 }
 
+# 3. ניתוב (Routing) - האם ביקשו את ה-API?
+# (בגרסאות סטרימליט חדשות משתמשים ב- st.query_params)
+if st.query_params.get("api") == "true":
+    # מחזיר רק JSON נקי לעמוד
+    st.json(machine_ready_data)
+    # עוצר את ריצת הסקריפט כדי לא לרנדר את שאר ה-HTML/CSS/Graphs
+    st.stop()
+
 st.markdown(f"""
     <script type="application/ld+json">
-    {json.dumps(machine_ready_page, ensure_ascii=False, indent=2)}
+    {json.dumps(machine_ready_data, ensure_ascii=False, indent=2)}
     </script>
 """, unsafe_allow_html=True)
 
@@ -1236,112 +1349,6 @@ st.markdown(f"""
     <div class="price-changes-title">עליות וירידות מחירים בולטות</div>
 """, unsafe_allow_html=True)
 
-def get_top_selected_consumption_items():
-    classification_file = Path("data/classification/groups_with_parent_level_siblings_depth.json")
-    if not classification_file.exists():
-        return []
-    
-    classification_data = load_json(classification_file)
-    if not classification_data or 'data' not in classification_data:
-        return []
-    
-    class_items = classification_data['data']
-    
-    level_1_groups = [
-        item for item in class_items 
-        if item.get('level') == 1 or item.get('parent_code') is None
-    ]
-    
-    level_1_stats = []
-    
-    for group in level_1_groups:
-        code = group['group_code']
-        file_path = Path(f"data/groups/cpi_{code}_11-2015_11-2025.json")
-        if file_path.exists():
-            data = load_json(file_path)
-            if data and data.get('data'):
-                latest = data['data'][0]
-                change = latest.get('monthly_change', 0)
-                if change is not None:
-                    level_1_stats.append({
-                        'code': code,
-                        'name': data.get('name', group.get('group_name', str(code))),
-                        'change': change,
-                        'score': abs(change)
-                    })
-                    
-    level_1_stats.sort(key=lambda x: x['score'], reverse=True)
-    top_5_level_1 = level_1_stats[:5]
-    
-    final_results = []
-    
-    for parent in top_5_level_1:
-        parent_code = parent['code']
-        parent_score = parent['score']
-        
-        children = [item for item in class_items if item.get('parent_code') == parent_code]
-        children_to_evaluate = []
-        
-        if parent_code == 120040:
-            special_codes = [120042, 120043]
-            special_changes = []
-            
-            children = [c for c in children if c['group_code'] not in special_codes]
-            
-            for code in special_codes:
-                c_file = Path(f"data/groups/cpi_{code}_11-2015_11-2025.json")
-                if c_file.exists():
-                    c_data = load_json(c_file)
-                    if c_data and c_data.get('data'):
-                        c_change = c_data['data'][0].get('monthly_change', 0)
-                        special_changes.append(c_change)
-            
-            if special_changes:
-                avg_change = sum(special_changes) / len(special_changes)
-                children_to_evaluate.append({
-                    'name': 'פירות וירקות טריים',
-                    'change': avg_change,
-                    'score': abs(avg_change)
-                })
-        
-        for child in children:
-            c_code = child['group_code']
-            c_file = Path(f"data/groups/cpi_{c_code}_11-2015_11-2025.json")
-            if c_file.exists():
-                c_data = load_json(c_file)
-                if c_data and c_data.get('data'):
-                    c_latest = c_data['data'][0]
-                    c_change = c_latest.get('monthly_change', 0)
-                    if c_change is not None:
-                        children_to_evaluate.append({
-                            'name': c_data.get('name', child.get('group_name', str(c_code))),
-                            'change': c_change,
-                            'score': abs(c_change)
-                        })
-        
-        best_child_score = -1
-        best_child_change = 0
-        best_child_name = ""
-        
-        for child_eval in children_to_evaluate:
-            if child_eval['score'] > best_child_score:
-                best_child_score = child_eval['score']
-                best_child_change = child_eval['change']
-                best_child_name = child_eval['name']
-        
-        if best_child_score > parent_score:
-            final_results.append({
-                'name': best_child_name,
-                'change': best_child_change
-            })
-        else:
-            final_results.append({
-                'name': parent['name'],
-                'change': parent['change']
-            })
-
-    final_results.sort(key=lambda x: abs(x['change']), reverse=True)       
-    return final_results
 
 top_changes = get_top_selected_consumption_items()
 
