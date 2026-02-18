@@ -1,0 +1,11 @@
+[theme]
+primaryColor = "#005eb8" # כחול למ"ס
+backgroundColor = "#ffffff" # לבן נקי
+secondaryBackgroundColor = "#f0f2f6" # אפור בהיר לרקע/תפריטים
+textColor = "#31333f"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false

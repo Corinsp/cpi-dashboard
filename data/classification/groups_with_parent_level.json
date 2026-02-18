@@ -1,0 +1,2071 @@
+{
+  "index_id": "00",
+  "name": "קבוצות עם parent_code, רמה ואחים",
+  "data": [
+    {
+      "group_code": 120050,
+      "group_name": "מזון ללא ירקות ופירות",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120040,
+        120450,
+        120520,
+        120660,
+        120850,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120060,
+      "group_name": "לחם, דגנים ומוצרי בצק",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120130,
+        120200,
+        120230,
+        120120,
+        120370,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120070,
+      "group_name": "לחם",
+      "parent_code": 120060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120080,
+        120090,
+        120100,
+        120110
+      ]
+    },
+    {
+      "group_code": 120080,
+      "group_name": "ביסקוויטים, עוגות וכדומה",
+      "parent_code": 120060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120070,
+        120090,
+        120100,
+        120110
+      ]
+    },
+    {
+      "group_code": 120090,
+      "group_name": "קמח",
+      "parent_code": 120060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120070,
+        120080,
+        120100,
+        120110
+      ]
+    },
+    {
+      "group_code": 120100,
+      "group_name": "מוצרי בצק",
+      "parent_code": 120060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120070,
+        120080,
+        120090,
+        120110
+      ]
+    },
+    {
+      "group_code": 120110,
+      "group_name": "קטניות ומוצרי דגן",
+      "parent_code": 120060,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120070,
+        120080,
+        120090,
+        120100
+      ]
+    },
+    {
+      "group_code": 120130,
+      "group_name": "בשר, עופות, דגים ומוצריהם",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120200,
+        120230,
+        120120,
+        120370,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120140,
+      "group_name": "בשר בקר",
+      "parent_code": 120130,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120150,
+        120160,
+        120170,
+        120180,
+        120190
+      ]
+    },
+    {
+      "group_code": 120150,
+      "group_name": "בשר בהמה אחר: כבש וחזיר",
+      "parent_code": 120130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120140,
+        120160,
+        120170,
+        120180,
+        120190
+      ]
+    },
+    {
+      "group_code": 120160,
+      "group_name": "עופות",
+      "parent_code": 120130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120140,
+        120150,
+        120170,
+        120180,
+        120190
+      ]
+    },
+    {
+      "group_code": 120170,
+      "group_name": "בשר משומר ומעובד",
+      "parent_code": 120130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120140,
+        120150,
+        120160,
+        120180,
+        120190
+      ]
+    },
+    {
+      "group_code": 120180,
+      "group_name": "דגים",
+      "parent_code": 120130,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120140,
+        120150,
+        120160,
+        120170,
+        120190
+      ]
+    },
+    {
+      "group_code": 120190,
+      "group_name": "שימורי דגים ודגים מעובדים",
+      "parent_code": 120130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120140,
+        120150,
+        120160,
+        120170,
+        120180
+      ]
+    },
+    {
+      "group_code": 120200,
+      "group_name": "שמנים ומרגרינה",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120230,
+        120120,
+        120370,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120210,
+      "group_name": "שמנים",
+      "parent_code": 120200,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120220
+      ]
+    },
+    {
+      "group_code": 120220,
+      "group_name": "מרגרינה",
+      "parent_code": 120200,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120210
+      ]
+    },
+    {
+      "group_code": 120230,
+      "group_name": "חלב ומוצרי חלב",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120120,
+        120370,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120240,
+      "group_name": "חלב",
+      "parent_code": 120230,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120250,
+        120260,
+        120270,
+        120280,
+        120285
+      ]
+    },
+    {
+      "group_code": 120250,
+      "group_name": "לבן, יוגורט ומעדני חלב",
+      "parent_code": 120230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120240,
+        120260,
+        120270,
+        120280,
+        120285
+      ]
+    },
+    {
+      "group_code": 120260,
+      "group_name": "שמנת",
+      "parent_code": 120230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120240,
+        120250,
+        120270,
+        120280,
+        120285
+      ]
+    },
+    {
+      "group_code": 120270,
+      "group_name": "חמאה",
+      "parent_code": 120230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120240,
+        120250,
+        120260,
+        120280,
+        120285
+      ]
+    },
+    {
+      "group_code": 120280,
+      "group_name": "גבינה",
+      "parent_code": 120230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120240,
+        120250,
+        120260,
+        120270,
+        120285
+      ]
+    },
+    {
+      "group_code": 120285,
+      "group_name": "גלידות",
+      "parent_code": 120230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120240,
+        120250,
+        120260,
+        120270,
+        120280
+      ]
+    },
+    {
+      "group_code": 120120,
+      "group_name": "ביצים",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120230,
+        120370,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120370,
+      "group_name": "סוכר, ריבה וממתקים",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120230,
+        120120,
+        120340,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120380,
+      "group_name": "סוכר ותחליפיו",
+      "parent_code": 120370,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120390,
+        120400
+      ]
+    },
+    {
+      "group_code": 120390,
+      "group_name": "ריבה, דבש וכדומה",
+      "parent_code": 120370,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120380,
+        120400
+      ]
+    },
+    {
+      "group_code": 120400,
+      "group_name": "ממתקים ושוקולד",
+      "parent_code": 120370,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120380,
+        120390
+      ]
+    },
+    {
+      "group_code": 120340,
+      "group_name": "משקאות",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120230,
+        120120,
+        120370,
+        120290,
+        120410
+      ]
+    },
+    {
+      "group_code": 120350,
+      "group_name": "משקאות קלים",
+      "parent_code": 120340,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120360
+      ]
+    },
+    {
+      "group_code": 120360,
+      "group_name": "משקאות אלכוהולים",
+      "parent_code": 120340,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120350
+      ]
+    },
+    {
+      "group_code": 120290,
+      "group_name": "מוצרי מזון שונים",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120230,
+        120120,
+        120370,
+        120340,
+        120410
+      ]
+    },
+    {
+      "group_code": 120300,
+      "group_name": "תבלינים, רטבים, מוצרים לעוגה ומזון לתינוקות",
+      "parent_code": 120290,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120310,
+        120320,
+        120330,
+        150315
+      ]
+    },
+    {
+      "group_code": 120310,
+      "group_name": "תה",
+      "parent_code": 120290,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120300,
+        120320,
+        120330,
+        150315
+      ]
+    },
+    {
+      "group_code": 120320,
+      "group_name": "קפה",
+      "parent_code": 120290,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120300,
+        120310,
+        120330,
+        150315
+      ]
+    },
+    {
+      "group_code": 120330,
+      "group_name": "קקאו",
+      "parent_code": 120290,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120300,
+        120310,
+        120320,
+        150315
+      ]
+    },
+    {
+      "group_code": 150315,
+      "group_name": "סלטים מוכנים",
+      "parent_code": 120290,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120300,
+        120310,
+        120320,
+        120330
+      ]
+    },
+    {
+      "group_code": 120410,
+      "group_name": "ארוחות מחוץ לבית",
+      "parent_code": 120050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120060,
+        120130,
+        120200,
+        120230,
+        120120,
+        120370,
+        120340,
+        120290
+      ]
+    },
+    {
+      "group_code": 120420,
+      "group_name": "ארוחות בעבודה",
+      "parent_code": 120410,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120430,
+        120440
+      ]
+    },
+    {
+      "group_code": 120430,
+      "group_name": "ארוחות במסעדות ובבתי קפה",
+      "parent_code": 120410,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120420,
+        120440
+      ]
+    },
+    {
+      "group_code": 120440,
+      "group_name": "מצרכים בקיוסקים ובחנויות נוחות",
+      "parent_code": 120410,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120420,
+        120430
+      ]
+    },
+    {
+      "group_code": 120040,
+      "group_name": "ירקות ופירות",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120450,
+        120520,
+        120660,
+        120850,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120042,
+      "group_name": "ירקות טריים",
+      "parent_code": 120040,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120043,
+        120046,
+        120047
+      ]
+    },
+    {
+      "group_code": 120043,
+      "group_name": "פירות טריים",
+      "parent_code": 120040,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120042,
+        120046,
+        120047
+      ]
+    },
+    {
+      "group_code": 120046,
+      "group_name": "ירקות קפואים, כבושים ומשומרים",
+      "parent_code": 120040,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120042,
+        120043,
+        120047
+      ]
+    },
+    {
+      "group_code": 120047,
+      "group_name": "פירות יבשים, משומרים וקפואים",
+      "parent_code": 120040,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120042,
+        120043,
+        120046
+      ]
+    },
+    {
+      "group_code": 120450,
+      "group_name": "דיור",
+      "parent_code": null,
+      "level": 1,
+      "level_name": "רמה 1",
+      "sibling_codes": [
+        120050,
+        120040,
+        120520,
+        120660,
+        120850,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120490,
+      "group_name": "שירותי דיור בבעלות הדיירים",
+      "parent_code": 120450,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120460,
+        120510
+      ]
+    },
+    {
+      "group_code": 120460,
+      "group_name": "שכר דירה פרטי, ציבורי ושכירות ארוכת טווח בפיקוח ממשלתי",
+      "parent_code": 120450,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120490,
+        120510
+      ]
+    },
+    {
+      "group_code": 120510,
+      "group_name": "הוצאות דיור אחרות, כגון תיווך, עריכת חוזים וביטוח",
+      "parent_code": 120450,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120490,
+        120460
+      ]
+    },
+    {
+      "group_code": 120520,
+      "group_name": "תחזוקת הדירה",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120660,
+        120850,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120580,
+      "group_name": "חשמל, גז, מים וכדומה",
+      "parent_code": 120520,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120550,
+        120630,
+        120530,
+        120540
+      ]
+    },
+    {
+      "group_code": 120590,
+      "group_name": "חשמל לצריכה ביתית",
+      "parent_code": 120580,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120600,
+        120610,
+        120620
+      ]
+    },
+    {
+      "group_code": 120600,
+      "group_name": "גז לצריכה ביתית",
+      "parent_code": 120580,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120590,
+        120610,
+        120620
+      ]
+    },
+    {
+      "group_code": 120610,
+      "group_name": "נפט וסולר לחימום הדירה",
+      "parent_code": 120580,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120590,
+        120600,
+        120620
+      ]
+    },
+    {
+      "group_code": 120620,
+      "group_name": "שירותי מים וביוב לצריכה ביתית",
+      "parent_code": 120580,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120590,
+        120600,
+        120610
+      ]
+    },
+    {
+      "group_code": 120550,
+      "group_name": "תחזוקה ושיפור הבית",
+      "parent_code": 120520,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120580,
+        120630,
+        120530,
+        120540
+      ]
+    },
+    {
+      "group_code": 120560,
+      "group_name": "צביעה, סיוד וכדומה",
+      "parent_code": 120550,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120570
+      ]
+    },
+    {
+      "group_code": 120570,
+      "group_name": "תיקונים, שיפוצים ותחזוקת הדירה",
+      "parent_code": 120550,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120560
+      ]
+    },
+    {
+      "group_code": 120630,
+      "group_name": "חומרים ומוצרים לתחזוקת משק הבית",
+      "parent_code": 120520,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120580,
+        120550,
+        120530,
+        120540
+      ]
+    },
+    {
+      "group_code": 120780,
+      "group_name": "כלים שונים לנקיון ותחזוקת הבית",
+      "parent_code": 120630,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120640,
+        120650
+      ]
+    },
+    {
+      "group_code": 120640,
+      "group_name": "חומרי כביסה, ניקוי והדברה",
+      "parent_code": 120630,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120780,
+        120650
+      ]
+    },
+    {
+      "group_code": 120650,
+      "group_name": "צורכי משק בית אחרים",
+      "parent_code": 120630,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120780,
+        120640
+      ]
+    },
+    {
+      "group_code": 120530,
+      "group_name": "מסים עירוניים",
+      "parent_code": 120520,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120580,
+        120550,
+        120630,
+        120540
+      ]
+    },
+    {
+      "group_code": 120540,
+      "group_name": "עזרה בבית",
+      "parent_code": 120520,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120580,
+        120550,
+        120630,
+        120530
+      ]
+    },
+    {
+      "group_code": 120660,
+      "group_name": "ריהוט וציוד לבית",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120850,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120670,
+      "group_name": "ריהוט",
+      "parent_code": 120660,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120810,
+        120750,
+        120720
+      ]
+    },
+    {
+      "group_code": 120680,
+      "group_name": "ארונות, מזנונים, כונניות, שידות וכדומה",
+      "parent_code": 120670,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120690,
+        120700,
+        120704,
+        120706
+      ]
+    },
+    {
+      "group_code": 120690,
+      "group_name": "ספות, כורסאות, מיטות ומזרנים",
+      "parent_code": 120670,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120680,
+        120700,
+        120704,
+        120706
+      ]
+    },
+    {
+      "group_code": 120700,
+      "group_name": "שולחנות, כסאות ופינות אוכל",
+      "parent_code": 120670,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120680,
+        120690,
+        120704,
+        120706
+      ]
+    },
+    {
+      "group_code": 120704,
+      "group_name": "ריהוט וציוד לתינוק",
+      "parent_code": 120670,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120680,
+        120690,
+        120700,
+        120706
+      ]
+    },
+    {
+      "group_code": 120706,
+      "group_name": "ריהוט לגן ולמרפסת",
+      "parent_code": 120670,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120680,
+        120690,
+        120700,
+        120704
+      ]
+    },
+    {
+      "group_code": 120810,
+      "group_name": "ציוד חשמלי לבית",
+      "parent_code": 120660,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120670,
+        120750,
+        120720
+      ]
+    },
+    {
+      "group_code": 120815,
+      "group_name": "ציוד חשמלי גדול",
+      "parent_code": 120810,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120840,
+        120844,
+        120846
+      ]
+    },
+    {
+      "group_code": 120840,
+      "group_name": "ציוד חשמלי אחר למטבח ולבית כגון מיקרוגל ושואב אבק",
+      "parent_code": 120810,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120815,
+        120844,
+        120846
+      ]
+    },
+    {
+      "group_code": 120844,
+      "group_name": "ציוד חשמלי לחימום וקירור הבית",
+      "parent_code": 120810,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120815,
+        120840,
+        120846
+      ]
+    },
+    {
+      "group_code": 120846,
+      "group_name": "שירות תיקונים למוצרי חשמל ביתיים",
+      "parent_code": 120810,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120815,
+        120840,
+        120844
+      ]
+    },
+    {
+      "group_code": 120750,
+      "group_name": "כלי אוכל, בישול ואפייה",
+      "parent_code": 120660,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120670,
+        120810,
+        120720
+      ]
+    },
+    {
+      "group_code": 120790,
+      "group_name": "כלי אוכל",
+      "parent_code": 120750,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120800
+      ]
+    },
+    {
+      "group_code": 120800,
+      "group_name": "כלי בישול ואפייה",
+      "parent_code": 120750,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120790
+      ]
+    },
+    {
+      "group_code": 120720,
+      "group_name": "כלי מיטה וחפצי קישוט לבית",
+      "parent_code": 120660,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120670,
+        120810,
+        120750
+      ]
+    },
+    {
+      "group_code": 120730,
+      "group_name": "כלי מיטה ומגבות",
+      "parent_code": 120720,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120740
+      ]
+    },
+    {
+      "group_code": 120740,
+      "group_name": "חפצי קישוט לבית",
+      "parent_code": 120720,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120730
+      ]
+    },
+    {
+      "group_code": 120850,
+      "group_name": "הלבשה והנעלה",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120660,
+        121230,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 120860,
+      "group_name": "הלבשה",
+      "parent_code": 120850,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121000
+      ]
+    },
+    {
+      "group_code": 120870,
+      "group_name": "הלבשה עליונה לגברים",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120880,
+      "group_name": "הלבשה עליונה לנשים",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120890,
+      "group_name": "הלבשה עליונה לילדים, ילדות ותינוקות",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120900,
+      "group_name": "הלבשה תחתונה לגברים",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120910,
+      "group_name": "הלבשה תחתונה ובגדי שינה לנשים",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120920,
+      "group_name": "הלבשה תחתונה ובגדי שינה לילדים/ות",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120930,
+      "group_name": "גרביים לגבר",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120940,
+      "group_name": "גרביים לאישה",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120950,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120950,
+      "group_name": "גרביים לילדים, ילדות ותינוקות",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120960,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120960,
+      "group_name": "צורכי הלבשה שונים",
+      "parent_code": 120860,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120965,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120965,
+      "group_name": "בגדי ספורט והתעמלות",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120970,
+        120990
+      ]
+    },
+    {
+      "group_code": 120970,
+      "group_name": "בדים, שירותי תפירה וחומרי עזר",
+      "parent_code": 120860,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120990
+      ]
+    },
+    {
+      "group_code": 120990,
+      "group_name": "ניקוי בגדים וכביסה מחוץ לבית",
+      "parent_code": 120860,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120870,
+        120880,
+        120890,
+        120900,
+        120910,
+        120920,
+        120930,
+        120940,
+        120950,
+        120960,
+        120965,
+        120970
+      ]
+    },
+    {
+      "group_code": 121000,
+      "group_name": "הנעלה",
+      "parent_code": 120850,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120860
+      ]
+    },
+    {
+      "group_code": 121010,
+      "group_name": "הנעלה לגברים",
+      "parent_code": 121000,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121020,
+        121030,
+        121040
+      ]
+    },
+    {
+      "group_code": 121020,
+      "group_name": "הנעלה לנשים",
+      "parent_code": 121000,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121010,
+        121030,
+        121040
+      ]
+    },
+    {
+      "group_code": 121030,
+      "group_name": "הנעלה לילדים, ילדות ותינוקות",
+      "parent_code": 121000,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121010,
+        121020,
+        121040
+      ]
+    },
+    {
+      "group_code": 121040,
+      "group_name": "תיקוני נעליים",
+      "parent_code": 121000,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121010,
+        121020,
+        121030
+      ]
+    },
+    {
+      "group_code": 121230,
+      "group_name": "בריאות",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120660,
+        120850,
+        121050,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 121240,
+      "group_name": "שירותים רפואיים",
+      "parent_code": 121230,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121270,
+        121280
+      ]
+    },
+    {
+      "group_code": 121250,
+      "group_name": "שירותי ביטוח בריאות בקופות חולים ובחברות ביטוח",
+      "parent_code": 121240,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121260
+      ]
+    },
+    {
+      "group_code": 121260,
+      "group_name": "שירות רפואי פרטי",
+      "parent_code": 121240,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121250
+      ]
+    },
+    {
+      "group_code": 121270,
+      "group_name": "ריפוי שיניים",
+      "parent_code": 121230,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121240,
+        121280
+      ]
+    },
+    {
+      "group_code": 121280,
+      "group_name": "תרופות ועזרים רפואיים",
+      "parent_code": 121230,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121240,
+        121270
+      ]
+    },
+    {
+      "group_code": 121290,
+      "group_name": "תרופות וצורכי רפואה שונים",
+      "parent_code": 121280,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121300
+      ]
+    },
+    {
+      "group_code": 121300,
+      "group_name": "משקפיים ומוצרי אופטיקה",
+      "parent_code": 121280,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121290
+      ]
+    },
+    {
+      "group_code": 121050,
+      "group_name": "חינוך, תרבות ובידור",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120660,
+        120850,
+        121230,
+        121320,
+        121430
+      ]
+    },
+    {
+      "group_code": 121060,
+      "group_name": "שירותי חינוך",
+      "parent_code": 121050,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121130
+      ]
+    },
+    {
+      "group_code": 121070,
+      "group_name": "חינוך קדם יסודי",
+      "parent_code": 121060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121080,
+        121090,
+        121100,
+        121110,
+        121120
+      ]
+    },
+    {
+      "group_code": 121080,
+      "group_name": "חינוך יסודי",
+      "parent_code": 121060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121070,
+        121090,
+        121100,
+        121110,
+        121120
+      ]
+    },
+    {
+      "group_code": 121090,
+      "group_name": "חינוך על יסודי",
+      "parent_code": 121060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121070,
+        121080,
+        121100,
+        121110,
+        121120
+      ]
+    },
+    {
+      "group_code": 121100,
+      "group_name": "חינוך גבוה, אקדמי",
+      "parent_code": 121060,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121070,
+        121080,
+        121090,
+        121110,
+        121120
+      ]
+    },
+    {
+      "group_code": 121110,
+      "group_name": "הכשרה מקצועית, קורסי העשרה ופנאי וחינוך על תיכוני",
+      "parent_code": 121060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121070,
+        121080,
+        121090,
+        121100,
+        121120
+      ]
+    },
+    {
+      "group_code": 121120,
+      "group_name": "ספרים וציוד לימודים",
+      "parent_code": 121060,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121070,
+        121080,
+        121090,
+        121100,
+        121110
+      ]
+    },
+    {
+      "group_code": 121130,
+      "group_name": "תרבות ובידור",
+      "parent_code": 121050,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121060
+      ]
+    },
+    {
+      "group_code": 121140,
+      "group_name": "עיתונים, שבועונים וירחונים",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121150,
+        121160,
+        121180,
+        121190,
+        121200,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121150,
+      "group_name": "ספרי קריאה ועיון",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121160,
+        121180,
+        121190,
+        121200,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121160,
+      "group_name": "צורכי דת",
+      "parent_code": 121130,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121140,
+        121150,
+        121180,
+        121190,
+        121200,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121180,
+      "group_name": "הצגות, קונצרטים, מופעי ספורט, קולנוע וכדומה",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121190,
+        121200,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121190,
+      "group_name": "הארחה, נופש וטיולים",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121180,
+        121200,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121200,
+      "group_name": "מוצרי חשמל בידוריים",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121180,
+        121190,
+        121210,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121210,
+      "group_name": "תחביבים",
+      "parent_code": 121130,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121180,
+        121190,
+        121200,
+        121220,
+        121225
+      ]
+    },
+    {
+      "group_code": 121220,
+      "group_name": "צעצועים לילדים ונוער",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121180,
+        121190,
+        121200,
+        121210,
+        121225
+      ]
+    },
+    {
+      "group_code": 121225,
+      "group_name": "עריכת מסיבות ואירועים",
+      "parent_code": 121130,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121140,
+        121150,
+        121160,
+        121180,
+        121190,
+        121200,
+        121210,
+        121220
+      ]
+    },
+    {
+      "group_code": 121320,
+      "group_name": "תחבורה ותקשורת",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120660,
+        120850,
+        121230,
+        121050,
+        121430
+      ]
+    },
+    {
+      "group_code": 121330,
+      "group_name": "תחבורה",
+      "parent_code": 121320,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121400
+      ]
+    },
+    {
+      "group_code": 121335,
+      "group_name": "נסיעה בתחבורה ציבורית",
+      "parent_code": 121330,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121390,
+        121360,
+        121370
+      ]
+    },
+    {
+      "group_code": 121390,
+      "group_name": "הוצאות על נסיעות לחו\"\"ל וטיסות בארץ",
+      "parent_code": 121330,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121335,
+        121360,
+        121370
+      ]
+    },
+    {
+      "group_code": 121360,
+      "group_name": "רכב פרטי ואחזקתו",
+      "parent_code": 121330,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121335,
+        121390,
+        121370
+      ]
+    },
+    {
+      "group_code": 121370,
+      "group_name": "שיעורי נהיגה, שכירת כלי תחבורה וכדומה",
+      "parent_code": 121330,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121335,
+        121390,
+        121360
+      ]
+    },
+    {
+      "group_code": 121400,
+      "group_name": "תקשורת",
+      "parent_code": 121320,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121330
+      ]
+    },
+    {
+      "group_code": 121410,
+      "group_name": "שירותי טלפון, אינטרנט, טלוויזיה ומוצרי תקשורת",
+      "parent_code": 121400,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121420
+      ]
+    },
+    {
+      "group_code": 121420,
+      "group_name": "שירותי דואר",
+      "parent_code": 121400,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121410
+      ]
+    },
+    {
+      "group_code": 121430,
+      "group_name": "שונות",
+      "parent_code": null,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        120050,
+        120040,
+        120450,
+        120520,
+        120660,
+        120850,
+        121230,
+        121050,
+        121320
+      ]
+    },
+    {
+      "group_code": 121440,
+      "group_name": "סיגריות וטבק",
+      "parent_code": 121430,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121450,
+        121484,
+        121487
+      ]
+    },
+    {
+      "group_code": 121450,
+      "group_name": "טיפולים אישיים ומוצרי קוסמטיקה",
+      "parent_code": 121430,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121440,
+        121484,
+        121487
+      ]
+    },
+    {
+      "group_code": 121460,
+      "group_name": "תספורת ומכון יופי",
+      "parent_code": 121450,
+      "level": 2,
+      "level_name": "רמה 2",
+      "sibling_codes": [
+        121470,
+        121482
+      ]
+    },
+    {
+      "group_code": 121470,
+      "group_name": "צורכי רחצה וקוסמטיקה",
+      "parent_code": 121450,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121460,
+        121482
+      ]
+    },
+    {
+      "group_code": 121482,
+      "group_name": "מוצרים ואביזרים לטיפול בתינוק",
+      "parent_code": 121450,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121460,
+        121470
+      ]
+    },
+    {
+      "group_code": 121484,
+      "group_name": "שירותים משפטיים, אגרות, קנסות ושירותי בנק",
+      "parent_code": 121430,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121440,
+        121450,
+        121487
+      ]
+    },
+    {
+      "group_code": 121480,
+      "group_name": "שירותים משפטיים",
+      "parent_code": 121484,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121486
+      ]
+    },
+    {
+      "group_code": 121486,
+      "group_name": "שירותים פיננסים ואחרים",
+      "parent_code": 121484,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121480
+      ]
+    },
+    {
+      "group_code": 121487,
+      "group_name": "מוצרים אישיים ומשלימים כגון: תכשיטים, שעונים ותיקים",
+      "parent_code": 121430,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121440,
+        121450,
+        121484
+      ]
+    },
+    {
+      "group_code": 121489,
+      "group_name": "תכשיטים שעונים ואביזרי אופנה",
+      "parent_code": 121487,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121520
+      ]
+    },
+    {
+      "group_code": 121520,
+      "group_name": "תיקים, מזוודות ,ילקוטים וארנקים",
+      "parent_code": 121487,
+      "level": 3,
+      "level_name": "רמה 3",
+      "sibling_codes": [
+        121489
+      ]
+    }
+  ]
+}

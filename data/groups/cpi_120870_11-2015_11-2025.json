@@ -1,0 +1,1008 @@
+{
+  "index_id": 120870,
+  "name": "הלבשה עליונה  לגברים",
+  "start_period": "11-2015",
+  "end_period": "11-2025",
+  "data": [
+    {
+      "year": 2025,
+      "month": 11,
+      "value": 97.6,
+      "monthly_change": 0.1,
+      "yearly_change": -4.0,
+      "base": 2024,
+      "index_relative_to_2024_avg": 97.6,
+      "contribution": 0.001
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "value": 97.5,
+      "monthly_change": 3.7,
+      "yearly_change": -2.9,
+      "base": 2024,
+      "index_relative_to_2024_avg": 97.5,
+      "contribution": 0.021
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "value": 94.0,
+      "monthly_change": -0.4,
+      "yearly_change": -1.7,
+      "base": 2024,
+      "index_relative_to_2024_avg": 94.0,
+      "contribution": -0.002
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "value": 94.4,
+      "monthly_change": -0.6,
+      "yearly_change": -1.3,
+      "base": 2024,
+      "index_relative_to_2024_avg": 94.4,
+      "contribution": -0.003
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "value": 95.0,
+      "monthly_change": -4.5,
+      "yearly_change": -2.7,
+      "base": 2024,
+      "index_relative_to_2024_avg": 95.0,
+      "contribution": -0.026
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "value": 99.5,
+      "monthly_change": -3.3,
+      "yearly_change": -0.8,
+      "base": 2024,
+      "index_relative_to_2024_avg": 99.5,
+      "contribution": -0.019
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 102.9,
+      "monthly_change": 0.8,
+      "yearly_change": -0.9,
+      "base": 2024,
+      "index_relative_to_2024_avg": 102.9,
+      "contribution": 0.005
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "value": 102.1,
+      "monthly_change": 0.9,
+      "yearly_change": 0.6,
+      "base": 2024,
+      "index_relative_to_2024_avg": 102.1,
+      "contribution": 0.005
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "value": 101.2,
+      "monthly_change": 4.1,
+      "yearly_change": -0.6,
+      "base": 2024,
+      "index_relative_to_2024_avg": 101.2,
+      "contribution": 0.023
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "value": 97.2,
+      "monthly_change": -2.2,
+      "yearly_change": -0.4,
+      "base": 2024,
+      "index_relative_to_2024_avg": 97.2,
+      "contribution": -0.013
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "value": 99.4,
+      "monthly_change": -4.5,
+      "yearly_change": 0.0,
+      "base": 2024,
+      "index_relative_to_2024_avg": 99.4,
+      "contribution": -0.026
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "value": 98.2,
+      "monthly_change": 2.4,
+      "yearly_change": 3.5,
+      "base": 2022,
+      "index_relative_to_2024_avg": 104.2,
+      "contribution": 0.014
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "value": 95.9,
+      "monthly_change": 1.3,
+      "yearly_change": 0.2,
+      "base": 2022,
+      "index_relative_to_2024_avg": 101.7,
+      "contribution": 0.007
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "value": 94.7,
+      "monthly_change": 5.0,
+      "yearly_change": 1.2,
+      "base": 2022,
+      "index_relative_to_2024_avg": 100.5,
+      "contribution": 0.028
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "value": 90.2,
+      "monthly_change": 0.0,
+      "yearly_change": 1.7,
+      "base": 2022,
+      "index_relative_to_2024_avg": 95.7,
+      "contribution": 0.0
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 90.2,
+      "monthly_change": -2.1,
+      "yearly_change": 1.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": 95.7,
+      "contribution": -0.012
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "value": 92.1,
+      "monthly_change": -2.6,
+      "yearly_change": 0.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": 97.7,
+      "contribution": -0.015
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "value": 94.6,
+      "monthly_change": -3.4,
+      "yearly_change": -1.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": 100.4,
+      "contribution": -0.019
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "value": 97.9,
+      "monthly_change": 2.3,
+      "yearly_change": -1.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": 103.9,
+      "contribution": 0.013
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "value": 95.7,
+      "monthly_change": -0.3,
+      "yearly_change": -4.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": 101.5,
+      "contribution": -0.002
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 96.0,
+      "monthly_change": 4.3,
+      "yearly_change": -4.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": 101.8,
+      "contribution": 0.024
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "value": 92.0,
+      "monthly_change": -1.8,
+      "yearly_change": -2.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": 97.6,
+      "contribution": -0.01
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 93.7,
+      "monthly_change": -1.3,
+      "yearly_change": -3.7,
+      "base": 2022,
+      "index_relative_to_2024_avg": 99.4,
+      "contribution": -0.007
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 94.9,
+      "monthly_change": -0.8,
+      "yearly_change": -7.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": 100.7,
+      "contribution": -0.005
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "value": 95.7,
+      "monthly_change": 2.2,
+      "yearly_change": -6.0,
+      "base": 2022,
+      "index_relative_to_2024_avg": 101.5,
+      "contribution": 0.013
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "value": 93.6,
+      "monthly_change": 5.5,
+      "yearly_change": -7.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": 99.3,
+      "contribution": 0.031
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "value": 88.7,
+      "monthly_change": 0.2,
+      "yearly_change": -8.4,
+      "base": 2022,
+      "index_relative_to_2024_avg": 94.1,
+      "contribution": 0.001
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "value": 88.5,
+      "monthly_change": -3.1,
+      "yearly_change": -6.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": 93.9,
+      "contribution": -0.018
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "value": 91.3,
+      "monthly_change": -5.0,
+      "yearly_change": -5.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": 96.9,
+      "contribution": -0.028
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "value": 96.1,
+      "monthly_change": -3.6,
+      "yearly_change": -4.4,
+      "base": 2022,
+      "index_relative_to_2024_avg": 101.9,
+      "contribution": -0.02
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "value": 99.7,
+      "monthly_change": -0.8,
+      "yearly_change": -5.2,
+      "base": 2022,
+      "index_relative_to_2024_avg": 105.8,
+      "contribution": -0.005
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "value": 100.5,
+      "monthly_change": 0.4,
+      "yearly_change": -2.3,
+      "base": 2022,
+      "index_relative_to_2024_avg": 106.6,
+      "contribution": 0.002
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "value": 100.1,
+      "monthly_change": 5.9,
+      "yearly_change": -0.4,
+      "base": 2022,
+      "index_relative_to_2024_avg": 106.2,
+      "contribution": 0.034
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 94.5,
+      "monthly_change": -2.9,
+      "yearly_change": -2.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": 100.2,
+      "contribution": -0.017
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "value": 97.3,
+      "monthly_change": -4.8,
+      "yearly_change": -2.3,
+      "base": 2022,
+      "index_relative_to_2024_avg": 103.2,
+      "contribution": -0.027
+    },
+    {
+      "year": 2022,
+      "month": 12,
+      "value": 98.1,
+      "monthly_change": 0.4,
+      "yearly_change": -1.8,
+      "base": 2020,
+      "index_relative_to_2024_avg": 108.4,
+      "contribution": 0.002
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "value": 97.7,
+      "monthly_change": 0.2,
+      "yearly_change": -0.7,
+      "base": 2020,
+      "index_relative_to_2024_avg": 108.0,
+      "contribution": 0.001
+    },
+    {
+      "year": 2022,
+      "month": 10,
+      "value": 97.5,
+      "monthly_change": 4.8,
+      "yearly_change": -0.9,
+      "base": 2020,
+      "index_relative_to_2024_avg": 107.8,
+      "contribution": 0.027
+    },
+    {
+      "year": 2022,
+      "month": 9,
+      "value": 93.0,
+      "monthly_change": 1.9,
+      "yearly_change": -2.0,
+      "base": 2020,
+      "index_relative_to_2024_avg": 102.8,
+      "contribution": 0.011
+    },
+    {
+      "year": 2022,
+      "month": 8,
+      "value": 91.3,
+      "monthly_change": -1.2,
+      "yearly_change": -5.3,
+      "base": 2020,
+      "index_relative_to_2024_avg": 100.9,
+      "contribution": -0.007
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "value": 92.4,
+      "monthly_change": -4.2,
+      "yearly_change": -4.9,
+      "base": 2020,
+      "index_relative_to_2024_avg": 102.1,
+      "contribution": -0.024
+    },
+    {
+      "year": 2022,
+      "month": 6,
+      "value": 96.5,
+      "monthly_change": -4.5,
+      "yearly_change": -5.5,
+      "base": 2020,
+      "index_relative_to_2024_avg": 106.7,
+      "contribution": -0.026
+    },
+    {
+      "year": 2022,
+      "month": 5,
+      "value": 101.0,
+      "monthly_change": 2.2,
+      "yearly_change": -3.3,
+      "base": 2020,
+      "index_relative_to_2024_avg": 111.6,
+      "contribution": 0.013
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "value": 98.8,
+      "monthly_change": 2.4,
+      "yearly_change": -3.2,
+      "base": 2020,
+      "index_relative_to_2024_avg": 109.2,
+      "contribution": 0.014
+    },
+    {
+      "year": 2022,
+      "month": 3,
+      "value": 96.5,
+      "monthly_change": 3.4,
+      "yearly_change": -2.4,
+      "base": 2020,
+      "index_relative_to_2024_avg": 106.7,
+      "contribution": 0.019
+    },
+    {
+      "year": 2022,
+      "month": 2,
+      "value": 93.3,
+      "monthly_change": -2.4,
+      "yearly_change": 1.9,
+      "base": 2020,
+      "index_relative_to_2024_avg": 103.1,
+      "contribution": -0.014
+    },
+    {
+      "year": 2022,
+      "month": 1,
+      "value": 95.6,
+      "monthly_change": -4.3,
+      "yearly_change": 9.3,
+      "base": 2020,
+      "index_relative_to_2024_avg": 105.7,
+      "contribution": -0.024
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "value": 99.9,
+      "monthly_change": 1.5,
+      "yearly_change": -2.2,
+      "base": 2020,
+      "index_relative_to_2024_avg": 110.4,
+      "contribution": 0.009
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "value": 98.4,
+      "monthly_change": 0.0,
+      "yearly_change": -3.7,
+      "base": 2020,
+      "index_relative_to_2024_avg": 108.8,
+      "contribution": 0.0
+    },
+    {
+      "year": 2021,
+      "month": 10,
+      "value": 98.4,
+      "monthly_change": 3.7,
+      "yearly_change": -1.1,
+      "base": 2020,
+      "index_relative_to_2024_avg": 108.8,
+      "contribution": 0.021
+    },
+    {
+      "year": 2021,
+      "month": 9,
+      "value": 94.9,
+      "monthly_change": -1.6,
+      "yearly_change": -0.2,
+      "base": 2020,
+      "index_relative_to_2024_avg": 104.9,
+      "contribution": -0.009
+    },
+    {
+      "year": 2021,
+      "month": 8,
+      "value": 96.4,
+      "monthly_change": -0.8,
+      "yearly_change": 0.9,
+      "base": 2020,
+      "index_relative_to_2024_avg": 106.6,
+      "contribution": -0.005
+    },
+    {
+      "year": 2021,
+      "month": 7,
+      "value": 97.2,
+      "monthly_change": -4.8,
+      "yearly_change": -0.3,
+      "base": 2020,
+      "index_relative_to_2024_avg": 107.4,
+      "contribution": -0.027
+    },
+    {
+      "year": 2021,
+      "month": 6,
+      "value": 102.1,
+      "monthly_change": -2.3,
+      "yearly_change": -1.8,
+      "base": 2020,
+      "index_relative_to_2024_avg": 112.9,
+      "contribution": -0.013
+    },
+    {
+      "year": 2021,
+      "month": 5,
+      "value": 104.5,
+      "monthly_change": 2.4,
+      "yearly_change": 0.0,
+      "base": 2020,
+      "index_relative_to_2024_avg": 115.5,
+      "contribution": 0.014
+    },
+    {
+      "year": 2021,
+      "month": 4,
+      "value": 102.1,
+      "monthly_change": 3.2,
+      "yearly_change": -1.6,
+      "base": 2020,
+      "index_relative_to_2024_avg": 112.9,
+      "contribution": 0.018
+    },
+    {
+      "year": 2021,
+      "month": 3,
+      "value": 98.9,
+      "monthly_change": 8.0,
+      "yearly_change": -0.8,
+      "base": 2020,
+      "index_relative_to_2024_avg": 109.3,
+      "contribution": 0.046
+    },
+    {
+      "year": 2021,
+      "month": 2,
+      "value": 91.6,
+      "monthly_change": 4.7,
+      "yearly_change": -4.8,
+      "base": 2020,
+      "index_relative_to_2024_avg": 101.2,
+      "contribution": 0.027
+    },
+    {
+      "year": 2021,
+      "month": 1,
+      "value": 87.5,
+      "monthly_change": -14.3,
+      "yearly_change": -12.1,
+      "base": 2020,
+      "index_relative_to_2024_avg": 96.7,
+      "contribution": -0.081
+    },
+    {
+      "year": 2020,
+      "month": 12,
+      "value": 101.8,
+      "monthly_change": -0.1,
+      "yearly_change": -4.0,
+      "base": 2018,
+      "index_relative_to_2024_avg": 112.9,
+      "contribution": -0.001
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "value": 101.9,
+      "monthly_change": 2.7,
+      "yearly_change": -1.4,
+      "base": 2018,
+      "index_relative_to_2024_avg": 113.0,
+      "contribution": 0.015
+    },
+    {
+      "year": 2020,
+      "month": 10,
+      "value": 99.2,
+      "monthly_change": 4.6,
+      "yearly_change": -4.2,
+      "base": 2018,
+      "index_relative_to_2024_avg": 110.0,
+      "contribution": 0.026
+    },
+    {
+      "year": 2020,
+      "month": 9,
+      "value": 94.8,
+      "monthly_change": -0.5,
+      "yearly_change": -3.3,
+      "base": 2018,
+      "index_relative_to_2024_avg": 105.1,
+      "contribution": -0.003
+    },
+    {
+      "year": 2020,
+      "month": 8,
+      "value": 95.3,
+      "monthly_change": -2.0,
+      "yearly_change": -2.6,
+      "base": 2018,
+      "index_relative_to_2024_avg": 105.7,
+      "contribution": -0.011
+    },
+    {
+      "year": 2020,
+      "month": 7,
+      "value": 97.2,
+      "monthly_change": -6.3,
+      "yearly_change": -2.2,
+      "base": 2018,
+      "index_relative_to_2024_avg": 107.8,
+      "contribution": -0.036
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "value": 103.7,
+      "monthly_change": -0.5,
+      "yearly_change": -2.9,
+      "base": 2018,
+      "index_relative_to_2024_avg": 115.0,
+      "contribution": -0.003
+    },
+    {
+      "year": 2020,
+      "month": 5,
+      "value": 104.2,
+      "monthly_change": 0.7,
+      "yearly_change": -8.0,
+      "base": 2018,
+      "index_relative_to_2024_avg": 115.5,
+      "contribution": 0.004
+    },
+    {
+      "year": 2020,
+      "month": 4,
+      "value": 103.5,
+      "monthly_change": 4.1,
+      "yearly_change": -0.6,
+      "base": 2018,
+      "index_relative_to_2024_avg": 114.8,
+      "contribution": 0.023
+    },
+    {
+      "year": 2020,
+      "month": 3,
+      "value": 99.4,
+      "monthly_change": 3.6,
+      "yearly_change": -2.5,
+      "base": 2018,
+      "index_relative_to_2024_avg": 110.2,
+      "contribution": 0.02
+    },
+    {
+      "year": 2020,
+      "month": 2,
+      "value": 95.9,
+      "monthly_change": -3.3,
+      "yearly_change": -1.3,
+      "base": 2018,
+      "index_relative_to_2024_avg": 106.3,
+      "contribution": -0.019
+    },
+    {
+      "year": 2020,
+      "month": 1,
+      "value": 99.2,
+      "monthly_change": -6.4,
+      "yearly_change": -3.1,
+      "base": 2018,
+      "index_relative_to_2024_avg": 110.0,
+      "contribution": -0.036
+    },
+    {
+      "year": 2019,
+      "month": 12,
+      "value": 106.0,
+      "monthly_change": 2.6,
+      "yearly_change": -1.8,
+      "base": 2018,
+      "index_relative_to_2024_avg": 117.5,
+      "contribution": 0.015
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "value": 103.3,
+      "monthly_change": -0.2,
+      "yearly_change": 0.5,
+      "base": 2018,
+      "index_relative_to_2024_avg": 114.6,
+      "contribution": -0.001
+    },
+    {
+      "year": 2019,
+      "month": 10,
+      "value": 103.5,
+      "monthly_change": 5.6,
+      "yearly_change": 4.4,
+      "base": 2018,
+      "index_relative_to_2024_avg": 114.8,
+      "contribution": 0.032
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "value": 98.0,
+      "monthly_change": 0.2,
+      "yearly_change": 5.5,
+      "base": 2018,
+      "index_relative_to_2024_avg": 108.7,
+      "contribution": 0.001
+    },
+    {
+      "year": 2019,
+      "month": 8,
+      "value": 97.8,
+      "monthly_change": -1.6,
+      "yearly_change": 4.2,
+      "base": 2018,
+      "index_relative_to_2024_avg": 108.5,
+      "contribution": -0.009
+    },
+    {
+      "year": 2019,
+      "month": 7,
+      "value": 99.4,
+      "monthly_change": -6.9,
+      "yearly_change": 3.6,
+      "base": 2018,
+      "index_relative_to_2024_avg": 110.2,
+      "contribution": -0.039
+    },
+    {
+      "year": 2019,
+      "month": 6,
+      "value": 106.8,
+      "monthly_change": -5.7,
+      "yearly_change": 4.2,
+      "base": 2018,
+      "index_relative_to_2024_avg": 118.4,
+      "contribution": -0.032
+    },
+    {
+      "year": 2019,
+      "month": 5,
+      "value": 113.3,
+      "monthly_change": 8.8,
+      "yearly_change": 3.1,
+      "base": 2018,
+      "index_relative_to_2024_avg": 125.6,
+      "contribution": 0.05
+    },
+    {
+      "year": 2019,
+      "month": 4,
+      "value": 104.1,
+      "monthly_change": 2.1,
+      "yearly_change": 2.5,
+      "base": 2018,
+      "index_relative_to_2024_avg": 115.4,
+      "contribution": 0.012
+    },
+    {
+      "year": 2019,
+      "month": 3,
+      "value": 102.0,
+      "monthly_change": 4.9,
+      "yearly_change": 1.6,
+      "base": 2018,
+      "index_relative_to_2024_avg": 113.1,
+      "contribution": 0.028
+    },
+    {
+      "year": 2019,
+      "month": 2,
+      "value": 97.2,
+      "monthly_change": -5.1,
+      "yearly_change": 3.0,
+      "base": 2018,
+      "index_relative_to_2024_avg": 107.8,
+      "contribution": -0.029
+    },
+    {
+      "year": 2019,
+      "month": 1,
+      "value": 102.4,
+      "monthly_change": -5.1,
+      "yearly_change": 3.7,
+      "base": 2018,
+      "index_relative_to_2024_avg": 113.6,
+      "contribution": -0.029
+    },
+    {
+      "year": 2018,
+      "month": 12,
+      "value": 100.8,
+      "monthly_change": 5.0,
+      "yearly_change": 1.1,
+      "base": 2016,
+      "index_relative_to_2024_avg": 119.7,
+      "contribution": 0.028
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "value": 96.0,
+      "monthly_change": 3.7,
+      "yearly_change": -0.4,
+      "base": 2016,
+      "index_relative_to_2024_avg": 114.0,
+      "contribution": 0.021
+    },
+    {
+      "year": 2018,
+      "month": 10,
+      "value": 92.6,
+      "monthly_change": 6.7,
+      "yearly_change": -1.9,
+      "base": 2016,
+      "index_relative_to_2024_avg": 109.9,
+      "contribution": 0.038
+    },
+    {
+      "year": 2018,
+      "month": 9,
+      "value": 86.8,
+      "monthly_change": -1.0,
+      "yearly_change": -4.0,
+      "base": 2016,
+      "index_relative_to_2024_avg": 103.1,
+      "contribution": -0.006
+    },
+    {
+      "year": 2018,
+      "month": 8,
+      "value": 87.7,
+      "monthly_change": -2.1,
+      "yearly_change": -3.7,
+      "base": 2016,
+      "index_relative_to_2024_avg": 104.1,
+      "contribution": -0.012
+    },
+    {
+      "year": 2018,
+      "month": 7,
+      "value": 89.6,
+      "monthly_change": -6.4,
+      "yearly_change": -6.3,
+      "base": 2016,
+      "index_relative_to_2024_avg": 106.4,
+      "contribution": -0.036
+    },
+    {
+      "year": 2018,
+      "month": 6,
+      "value": 95.7,
+      "monthly_change": -6.7,
+      "yearly_change": -7.9,
+      "base": 2016,
+      "index_relative_to_2024_avg": 113.6,
+      "contribution": -0.038
+    },
+    {
+      "year": 2018,
+      "month": 5,
+      "value": 102.6,
+      "monthly_change": 8.1,
+      "yearly_change": -6.0,
+      "base": 2016,
+      "index_relative_to_2024_avg": 121.8,
+      "contribution": 0.046
+    },
+    {
+      "year": 2018,
+      "month": 4,
+      "value": 94.9,
+      "monthly_change": 1.2,
+      "yearly_change": -4.8,
+      "base": 2016,
+      "index_relative_to_2024_avg": 112.7,
+      "contribution": 0.007
+    },
+    {
+      "year": 2018,
+      "month": 3,
+      "value": 93.8,
+      "monthly_change": 6.5,
+      "yearly_change": -4.2,
+      "base": 2016,
+      "index_relative_to_2024_avg": 111.4,
+      "contribution": 0.037
+    },
+    {
+      "year": 2018,
+      "month": 2,
+      "value": 88.1,
+      "monthly_change": -4.4,
+      "yearly_change": -3.1,
+      "base": 2016,
+      "index_relative_to_2024_avg": 104.6,
+      "contribution": -0.025
+    },
+    {
+      "year": 2018,
+      "month": 1,
+      "value": 92.2,
+      "monthly_change": -7.5,
+      "yearly_change": -4.2,
+      "base": 2016,
+      "index_relative_to_2024_avg": 109.5,
+      "contribution": -0.043
+    },
+    {
+      "year": 2017,
+      "month": 12,
+      "value": 99.7,
+      "monthly_change": 3.4,
+      "yearly_change": -4.0,
+      "base": 2016,
+      "index_relative_to_2024_avg": 118.4,
+      "contribution": 0.019
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "value": 96.4,
+      "monthly_change": 2.1,
+      "yearly_change": -3.4,
+      "base": 2016,
+      "index_relative_to_2024_avg": 114.5,
+      "contribution": 0.012
+    },
+    {
+      "year": 2017,
+      "month": 10,
+      "value": 94.4,
+      "monthly_change": 4.4,
+      "yearly_change": -2.8,
+      "base": 2016,
+      "index_relative_to_2024_avg": 112.1,
+      "contribution": 0.025
+    },
+    {
+      "year": 2017,
+      "month": 9,
+      "value": 90.4,
+      "monthly_change": -0.8,
+      "yearly_change": -2.8,
+      "base": 2016,
+      "index_relative_to_2024_avg": 107.3,
+      "contribution": -0.005
+    },
+    {
+      "year": 2017,
+      "month": 8,
+      "value": 91.1,
+      "monthly_change": -4.7,
+      "yearly_change": -2.4,
+      "base": 2016,
+      "index_relative_to_2024_avg": 108.2,
+      "contribution": -0.027
+    }
+  ]
+}

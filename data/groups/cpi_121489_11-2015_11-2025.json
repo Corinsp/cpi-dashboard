@@ -1,0 +1,358 @@
+{
+  "index_id": 121489,
+  "name": "תכשיטים שעונים ואביזרי אופנה",
+  "start_period": "11-2015",
+  "end_period": "11-2025",
+  "data": [
+    {
+      "year": 2025,
+      "month": 11,
+      "value": 115.8,
+      "monthly_change": 0.1,
+      "yearly_change": 12.5,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.0
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "value": 115.7,
+      "monthly_change": 1.3,
+      "yearly_change": 13.6,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.006
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "value": 114.2,
+      "monthly_change": 1.2,
+      "yearly_change": 12.0,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.006
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "value": 112.9,
+      "monthly_change": 0.5,
+      "yearly_change": 12.7,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.002
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "value": 112.3,
+      "monthly_change": -0.4,
+      "yearly_change": 13.2,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.002
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "value": 112.8,
+      "monthly_change": 0.2,
+      "yearly_change": 12.8,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.001
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "value": 112.6,
+      "monthly_change": 1.9,
+      "yearly_change": 12.8,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.009
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "value": 110.5,
+      "monthly_change": 3.3,
+      "yearly_change": 12.4,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.015
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "value": 107.0,
+      "monthly_change": 0.8,
+      "yearly_change": 9.5,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.004
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "value": 106.1,
+      "monthly_change": 0.9,
+      "yearly_change": 8.4,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.004
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "value": 105.2,
+      "monthly_change": 2.1,
+      "yearly_change": 7.9,
+      "base": 2024,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.01
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "value": 113.8,
+      "monthly_change": 0.1,
+      "yearly_change": 7.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.0
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "value": 113.7,
+      "monthly_change": 1.1,
+      "yearly_change": 6.7,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.005
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "value": 112.5,
+      "monthly_change": -0.2,
+      "yearly_change": 5.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.001
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "value": 112.7,
+      "monthly_change": 1.8,
+      "yearly_change": 6.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.008
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "value": 110.7,
+      "monthly_change": 1.0,
+      "yearly_change": 5.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.005
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "value": 109.6,
+      "monthly_change": -0.8,
+      "yearly_change": 5.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.004
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "value": 110.5,
+      "monthly_change": 0.2,
+      "yearly_change": 5.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.001
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "value": 110.3,
+      "monthly_change": 1.6,
+      "yearly_change": 5.7,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.007
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "value": 108.6,
+      "monthly_change": 0.6,
+      "yearly_change": 4.4,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.003
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "value": 108.0,
+      "monthly_change": -0.2,
+      "yearly_change": 4.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.001
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "value": 108.2,
+      "monthly_change": 0.5,
+      "yearly_change": 5.8,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.002
+    },
+    {
+      "year": 2024,
+      "month": 1,
+      "value": 107.7,
+      "monthly_change": 1.8,
+      "yearly_change": 5.3,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.008
+    },
+    {
+      "year": 2023,
+      "month": 12,
+      "value": 105.8,
+      "monthly_change": -0.8,
+      "yearly_change": 8.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.004
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "value": 106.6,
+      "monthly_change": -0.4,
+      "yearly_change": 8.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.002
+    },
+    {
+      "year": 2023,
+      "month": 10,
+      "value": 107.0,
+      "monthly_change": 1.2,
+      "yearly_change": 8.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.006
+    },
+    {
+      "year": 2023,
+      "month": 9,
+      "value": 105.7,
+      "monthly_change": 0.4,
+      "yearly_change": 5.5,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.002
+    },
+    {
+      "year": 2023,
+      "month": 8,
+      "value": 105.3,
+      "monthly_change": 1.6,
+      "yearly_change": 5.2,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.007
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "value": 103.6,
+      "monthly_change": -1.0,
+      "yearly_change": 4.1,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": -0.005
+    },
+    {
+      "year": 2023,
+      "month": 6,
+      "value": 104.6,
+      "monthly_change": 0.2,
+      "yearly_change": 3.2,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.001
+    },
+    {
+      "year": 2023,
+      "month": 5,
+      "value": 104.4,
+      "monthly_change": 0.4,
+      "yearly_change": 2.4,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.002
+    },
+    {
+      "year": 2023,
+      "month": 4,
+      "value": 104.0,
+      "monthly_change": 1.0,
+      "yearly_change": 2.9,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.005
+    },
+    {
+      "year": 2023,
+      "month": 3,
+      "value": 103.0,
+      "monthly_change": 0.7,
+      "yearly_change": 1.3,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.003
+    },
+    {
+      "year": 2023,
+      "month": 2,
+      "value": 102.3,
+      "monthly_change": 0.0,
+      "yearly_change": 2.6,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.0
+    },
+    {
+      "year": 2023,
+      "month": 1,
+      "value": 102.3,
+      "monthly_change": 4.4,
+      "yearly_change": 2.7,
+      "base": 2022,
+      "index_relative_to_2024_avg": null,
+      "contribution": 0.02
+    }
+  ]
+}
