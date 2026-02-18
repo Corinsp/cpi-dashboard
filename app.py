@@ -352,24 +352,28 @@ st.markdown(f"""
     div[data-testid="stButton"] {{
         display: flex;
         justify-content: center;
-        margin-top: -85px; /* מושך את הכפתור בדיוק מעל החץ של ה-HTML */
+        margin-top: -100px; /* מושך את הכפתור חזק יותר למטה כדי שישב בול על החץ */
         position: relative;
-        z-index: 20;
+        z-index: 50;
     }}
 
     div[data-testid="stButton"] button {{
-        width: 120px !important;
-        height: 80px !important;
+        width: 350px !important;
+        height: 100px !important;
         background: transparent !important;
         border: none !important;
-        color: transparent !important;
+        color: transparent !important; 
         box-shadow: none !important;
         cursor: pointer;
     }}
 
-    div[data-testid="stButton"] button:hover {{
-        background: rgba(255, 255, 255, 0.05) !important;
-        border-radius: 20px;
+    div[data-testid="stButton"] button:hover,
+    div[data-testid="stButton"] button:active,
+    div[data-testid="stButton"] button:focus {{
+        background: transparent !important;
+        color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
     }}
     
     div[data-testid="column"] {{
