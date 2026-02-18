@@ -349,17 +349,27 @@ st.markdown(f"""
         display: inline-block; 
     }}
 
+    div[data-testid="stButton"] {{
+        display: flex;
+        justify-content: center;
+        margin-top: -85px; /* מושך את הכפתור בדיוק מעל החץ של ה-HTML */
+        position: relative;
+        z-index: 20;
+    }}
+
     div[data-testid="stButton"] button {{
-        position: absolute;
-        bottom: -15px; 
-        left: 50%;
-        transform: translateX(-50%);
-        width: 60px;
-        height: 60px;
+        width: 120px !important;
+        height: 80px !important;
         background: transparent !important;
         border: none !important;
         color: transparent !important;
-        z-index: 20;
+        box-shadow: none !important;
+        cursor: pointer;
+    }}
+
+    div[data-testid="stButton"] button:hover {{
+        background: rgba(255, 255, 255, 0.05) !important;
+        border-radius: 20px;
     }}
     
     div[data-testid="column"] {{
@@ -555,7 +565,7 @@ def create_hero_section(latest_data):
     """
     st.markdown("".join(line.strip() for line in hero_html.splitlines()), unsafe_allow_html=True)
 
-    if st.button("", key="btn_toggle_final"):
+    if st.button("TEST_BUTTON", key="btn_toggle_final"):
         st.session_state.show_table = not st.session_state.show_table
         st.rerun()
 
