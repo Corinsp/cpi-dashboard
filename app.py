@@ -799,6 +799,54 @@ if not main_data:
     st.stop()
 
 latest_record = main_data['data'][0]
+
+machine_ready_page = {
+    "page_title": "מדד המחירים לצרכן",
+    "report_date": f"{latest_record.get('month')}/{latest_record.get('year')}",
+    "summary": {
+        "monthly_change_percent": latest_record.get('monthly_change'),
+        "yearly_change_percent": latest_record.get('yearly_change'),
+        "index_level": latest_record.get('index_relative_to_2024_avg'),
+        "base": "ממוצע 2024 = 100",
+        "core_trend_without_housing_percent": 0.9,
+        "core_trend_without_housing_vegetables_fruits_percent": 1.5,
+        "core_trend_period": "אוגוסט-נובמבר 2025"
+    },
+    "monthly_changes_chart": {
+        "description": "אחוז שינוי חודשי במדד המחירים לצרכן ב-13 החודשים האחרונים",
+        "data": [
+            {
+                "month": d.get("month"),
+                "year": d.get("year"),
+                "monthly_change_percent": d.get("monthly_change")
+            }
+            for d in main_data['data'][:13]
+        ]
+    },
+    "contributions_chart": {
+        "description": "תרומת קבוצות מוצרים ושירותים לשינוי החודשי במדד",
+        "data": get_calculated_contributions()
+    },
+    "time_series_chart": {
+        "description": "רמת מדד המחירים לצרכן והמדד המנוכה עונתית ב-26 החודשים האחרונים",
+        "data": [
+            {
+                "month": d.get("month"),
+                "year": d.get("year"),
+                "index_level": d.get("index_relative_to_2024_avg"),
+                "seasonally_adjusted": d.get("seasonally_adjusted")
+            }
+            for d in main_data['data'][:26]
+        ]
+    }
+}
+
+st.markdown(f"""
+    <script type="application/ld+json">
+    {json.dumps(machine_ready_page, ensure_ascii=False, indent=2)}
+    </script>
+""", unsafe_allow_html=True)
+
 create_hero_section(latest_record)
 
 st.markdown('<div class="chart-section">', unsafe_allow_html=True)
@@ -1159,7 +1207,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="selected-changes-section">', unsafe_allow_html=True)
+st.markdown('<div class="selected-changes-section" style="margin-top: -3.5em;">', unsafe_allow_html=True)
 
 cart_image = load_svg_base64("assets/SVG/Asset 8.svg")
 
