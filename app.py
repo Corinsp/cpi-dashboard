@@ -1556,15 +1556,17 @@ def create_time_series_chart():
             range=[-0.5, len(df)-0.5]
         ),
         yaxis=dict(
-            title="מדד",
+            title=dict(
+                text="מדד",
+                font=dict(size=14, family="Rubik-Medium", color="#666")
+            ),
             showgrid=False,
             showline=True,
             linewidth=2,
             linecolor='#ccc',
             range=[97, 105],
             dtick=1,
-            tickfont=dict(size=14, family="Rubik-Medium", color="#666"),
-            titlefont=dict(size=14, family="Rubik-Medium", color="#666")
+            tickfont=dict(size=14, family="Rubik-Medium", color="#666")
         ),
         hovermode='closest'
     )
